@@ -1,0 +1,28 @@
+<html>
+   <head>
+      <title>User-defined objects</title>
+      
+      <script type = "text/javascript">
+         debugger;
+         var book = new Object();   // Create the object
+         book.subject = "Perl";     // Assign properties to the object
+         book.author  = "Mohtashim";
+
+         var details = new Object();
+         details.fname = "Arun";
+         details.lname = "Jadhav";
+      </script>
+      
+   </head>
+   
+   <body>
+   
+      <script type = "text/javascript">
+         document.write("Book name is : " + book.subject + "<br>");
+         document.write("Book author is : " + book.author + "<br>");
+         document.write("First Name is : "+ details.fname + "<br>");
+         document.write("Last Name is : "+ details.lname + "<br>");
+      </script>
+   
+   </body>
+</html>

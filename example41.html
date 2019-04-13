@@ -1,0 +1,28 @@
+<html>
+   <head>
+   
+      <script type = "text/javascript">
+         <!--
+            function over() {
+               document.getElementById("textId").innerHTML = 'onmouseover event called with red color change';
+               document.getElementById("textId").style.color = "red";
+            }
+            
+            function out() {
+               document.getElementById("textId").innerHTML = "onmouseout event called with green color change";
+               document.getElementById("textId").style.color = 'green';
+            }
+            
+         //-->
+      </script>
+      
+   </head>
+   <body>
+      <p>Bring your mouse inside the division to see the result:</p>
+      
+      <div onmouseover = "over()" onmouseout = "out()">
+         <h2 id="textId"> This is inside the division </h2>
+      </div>
+         
+   </body>
+</html>
